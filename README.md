@@ -9,37 +9,37 @@ This is a Streamlit-based application that recommends songs from YouTube based o
 
 ##  Workflow Overview
 
-1. ** User Input (Journal Entry):**
+1.  User Input (Journal Entry):
    - The user types a short sentence about how they’re feeling.
    - Example: _"I feel anxious about tomorrow's interview."_  
 
 2. ** Language Selection:**
    - The user selects a preferred language (e.g., Hindi, Tamil, English).
 
-3. ** Mood Detection (LLM via Ollama):**
+3. Mood Detection (LLM via Ollama):
    - The text input is sent as a prompt to a local LLM (e.g., `gemma3:1b`).
    - The model returns a detected mood: `happy`, `sad`, `angry`, `chill`, `romantic`, `anxious`, or `spiritual`.
 
-4. ** YouTube Music Search:**
+4.  YouTube Music Search:
    - Using the detected mood and selected language, a YouTube search query is formed:
      ```
      "{mood} mood {language} music"
      ```
    - Example: `"romantic mood Telugu music"`
 
-5. **🎶 Song Recommendation:**
+5.  Song Recommendation:
    - The YouTube Data API fetches top 3 matching videos.
    - Each song includes:
      - Title
      - Thumbnail preview
      - Link to play on YouTube
 
-6. ** Streamlit Output:**
+6.  Streamlit Output:
    - The app displays the mood, thumbnails, song titles, and clickable links in a clean UI.
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **Python 3.10+**
 - [Streamlit](https://streamlit.io/) – for frontend
