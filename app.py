@@ -34,7 +34,7 @@ if st.button("Get Recommendations"):
             songs = search_youtube_music(mood, selected_language)
 
         if songs:
-            st.markdown("### Top 3 Recommendations")
+            st.markdown("### 3 Recommendations")
             for video in songs:
                 st.markdown(f"**{video['title']}**")
                 st.image(video['thumbnail'], use_column_width=True)
