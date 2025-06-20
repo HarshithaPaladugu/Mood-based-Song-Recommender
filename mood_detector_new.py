@@ -13,7 +13,7 @@ def detect_mood(user_text):
 
     try:
         result = subprocess.run(
-            ["ollama", "run", "gemma3:1b"],  # replace 'gemma3:1b' with exact name if needed
+            ["ollama", "run", "gemma3:1b"],
             input=prompt.encode("utf-8"),
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
