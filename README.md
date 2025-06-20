@@ -13,7 +13,7 @@ This is a Streamlit-based application that recommends songs from YouTube based o
    - The user types a short sentence about how they’re feeling.
    - Example: _"I feel anxious about tomorrow's interview."_  
 
-2. ** Language Selection:**
+2. Language Selection:
    - The user selects a preferred language (e.g., Hindi, Tamil, English).
 
 3. Mood Detection (LLM via Ollama):
