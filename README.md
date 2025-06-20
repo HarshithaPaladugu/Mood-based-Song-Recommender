@@ -1,9 +1,6 @@
 # Mood-based-Song-Recommender
 Recommends 3 music or songs based on the emotion in the input text and the language chosen.
 
----
-
-````markdown
 #  Mood-Based Song Recommender using LLM and YouTube API
 
 This is a Streamlit-based application that recommends songs from YouTube based on the **user’s emotional state**, detected from a journal-style input. It combines the power of a local **Large Language Model (LLM)** (e.g., `gemma3:1b` via [Ollama](https://ollama.com)) with the **YouTube Data API** to deliver personalized music suggestions across multiple Indian languages.
@@ -57,7 +54,6 @@ This is a Streamlit-based application that recommends songs from YouTube based o
 ### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
-````
 
 ### 2. Pull & Start Ollama
 
