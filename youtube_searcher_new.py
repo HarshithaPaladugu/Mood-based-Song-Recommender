@@ -1,6 +1,6 @@
 import requests
 
-YOUTUBE_API_KEY = 'AIzaSyC6k3YoIPDmJ4xmTprFXygBZO7lRn8eQxg'  # Replace with your actual API key
+YOUTUBE_API_KEY = ''  # Replace with your actual API key
 
 def search_youtube_music(mood, language="English", max_results=3):
     search_query = f"{mood} mood {language} music"
